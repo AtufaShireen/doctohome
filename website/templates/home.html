@@ -89,35 +89,9 @@
                         <div class="classynav">
                             <ul id="nav">
                                 <li><a href="{% url 'home'%}">Home</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li><a href="{%url 'home'%}">- Home</a></li>
-                                        <li><a href="about.html">- About Us</a></li>
-                                        <li><a href="service.html">- Service</a></li>
-                                        <li><a href="pricing.html">- Pricing</a></li>
-                                        <li><a href="blog.html">- Blog</a></li>
-                                        <li><a href="blog-details.html">- Blog Details</a></li>
-                                        <li><a href="contact.html">- Contact</a></li>
-                                        <li><a href="#">- Dropdown</a>
-                                            <ul class="dropdown">
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a>
-                                                    <ul class="dropdown">
-                                                        <li><a href="#">- Even Dropdown</a></li>
-                                                        <li><a href="#">- Even Dropdown</a></li>
-                                                        <li><a href="#">- Even Dropdown</a></li>
-                                                        <li><a href="#">- Even Dropdown</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                                <li><a href="#">- Dropdown Item</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="service.html">Service</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="#aboutus">About</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
                                 <li><a href="#">Blog</a>
                                     <ul class="dropdown">
                                         <li><a href="blog.html">- Blog</a></li>
@@ -155,8 +129,7 @@
                                 To Diagnostic Testings</h2>
                             <p data-animation="fadeInUp" data-delay="300ms">With The Collabration To India's Best
                                 Diagnostic Centers, Dectohome
-                                is opening up exciting new opportunities for diagnostic lab testing from home. Results
-                                Will Be Updated On Your Account
+                                is opening up exciting new opportunities for diagnostic lab testing from home.
                             </p>
                             <div class="welcome-btn-group">
                                 <a href="#" class="btn dento-btn mx-2" data-animation="fadeInUp" data-delay="500ms">Get
@@ -199,7 +172,7 @@
 <!-- ***** Welcome Area End ***** -->
 
 <!-- ****** About Us Area Start ******* -->
-<section class="dento-about-us-area section-padding-100-0">
+<section class="dento-about-us-area section-padding-100-0" id="aboutus">
     <div class="container">
         <div class="row align-items-center">
             <!-- About Us Thumbnail -->
@@ -223,7 +196,7 @@
 
                     <!-- Single Skills Area -->
                     <div class="single-skills-area mt-30">
-                        <h6>Experience Dentist</h6>
+                        <h6>Trained Phlebotomists</h6>
                         <div id="bar1" class="barfiller">
                             <span class="tip"></span>
                             <span class="fill" data-percentage="80"></span>
@@ -304,7 +277,7 @@
 
 <!-- Dento Service Area Start -->
 <section class="dento-service-area section-padding-100-0 bg-img bg-gradient-overlay jarallax clearfix"
-         style="background-image: url({%static 'website/img/bg-img/13.jpg'%});">
+         style="background-image: url({%static 'website/img/bg-img/13.jpg'%});" id="services">
     <div class="container">
         <div class="row align-items-center">
             <!-- Service Content -->
@@ -385,7 +358,7 @@
 <!-- Dento Service Area End -->
 
 <!-- Dento Pricing Table Area Start -->
-<section class="dento-pricing-table-area section-padding-100">
+<section class="dento-pricing-table-area section-padding-100" id="pricing">
     <div class="container">
         <div class="row">
             <!-- Section Heading -->
